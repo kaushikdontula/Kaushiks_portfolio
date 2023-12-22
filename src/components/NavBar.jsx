@@ -12,11 +12,10 @@ export default class NavBar extends Component {
                 <a className="logo-link" href="/"><h2 className="nav-logo">Kaushik Dontula</h2></a>
             </div> */}
             <div className="links">
-                <Link class="link-txt" to="/LandingPage">About</Link>
-                <Link class="link-txt" to="/Resume">Resume</Link>
-                <Link class="link-txt" to="/Projects">Projects</Link>
-                <Link class="link-txt" to="/ContactMe">Contact Me</Link>
-
+                <Link className="link-txt" to="/Kaushiks_portfolio/LandingPage">About</Link>
+                <Link className="link-txt" to="/Kaushiks_portfolio/Resume">Resume</Link>
+                <Link className="link-txt" to="/Kaushiks_portfolio/Projects">Projects</Link>
+                <Link className="link-txt" to="/Kaushiks_portfolio/ContactMe">Contact Me</Link>
             </div>
         </div>
         )

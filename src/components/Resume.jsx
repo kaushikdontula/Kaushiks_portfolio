@@ -14,7 +14,9 @@ const Resume = () => {
       <NavBar />
       <h1>Kaushik Dontula's Resume</h1>
       <p>Here you can view or download my resume:</p>
-      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#555' }}> Resume (PDF)</a>
+      {/* <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#555' }}> Resume (PDF)</a> */}
+      <a href="/Kaushiks_portfolio/resume.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#555' }}> Resume (PDF)</a>
+
 
       <div>
         <p></p>

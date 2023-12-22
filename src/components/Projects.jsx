@@ -79,7 +79,8 @@ export const Projects = (props) => {
         {projectsData.map((project) => (
           <div key={project.id} className="project-item" onClick={() => openProjectDetails(project)}>
             <div className="project-icon">
-              <img src={`/${project.id}.png`} alt={project.title} />
+              {/* <img src={`/${project.id}.png`} alt={project.title} /> */}
+              <img src={`/Kaushiks_portfolio/${project.id}.png`} alt={project.title} />
               {/* <img src="https://drive.google.com/file/d/1IJsLbMvXPCCO1oBNvv86t0T_1fEDNnOu/view?usp=sharing" alt={project.title}/> */}
             </div>
             <div className="project-title">{project.title}</div>

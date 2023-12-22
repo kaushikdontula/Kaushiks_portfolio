@@ -53,7 +53,8 @@ export const LandingPage = (props) => {
       <header className="hero-section" style={{ marginBottom: '50px', display: 'flex', alignItems: 'center' }}>
         {/* Circular profile picture on the left */}
         <div style={{ width: '350px', height: '350px', borderRadius: '50%', overflow: 'hidden', marginLeft: '120px', marginRight: '100px', marginTop: '200px', flexShrink: 0 }}>
-        <img src={`/profile.png`} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+        {/* <img src={`/profile.png`} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> */}
+        <img src={`/Kaushiks_portfolio/profile.png`} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
 
         <div className="hero-content">
@@ -118,7 +119,7 @@ export const LandingPage = (props) => {
           `}
         </style>
 
-        <h2>Timeline</h2>
+        <h2>Career Timeline</h2>
         <VerticalTimeline className="costum-line">
           {timelineData.map((event, index) => (
             <VerticalTimelineElement
@@ -134,7 +135,8 @@ export const LandingPage = (props) => {
                 left: "49%",
                 transform: "translateY(-50%)",
               }}
-              icon={<img src={`/${event.id}.png`} alt={`Event ${index}`} style={{ width: "100%", height: "100%", borderRadius: "50%" }} />}
+              // icon={<img src={`/${event.id}.png`} alt={`Event ${index}`} style={{ width: "100%", height: "100%", borderRadius: "50%" }} />}
+              icon={<img src={`/Kaushiks_portfolio/${event.id}.png`} alt={`Event ${index}`} style={{ width: "100%", height: "100%", borderRadius: "50%" }} />}
             >
               <h3 className="vertical-timeline-element-title" style={{ color: "#333" }}>{event.title}</h3>
               <p style={{ color: "#666" }}>{event.description}</p>

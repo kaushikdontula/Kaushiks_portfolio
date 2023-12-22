@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { LandingPage } from './components/LandingPage';
-import { RegisterPage } from './components/RegisterPage';
 import Resume from './components/Resume';
 import { Projects } from './components/Projects';
 import { ContactMe } from './components/ContactMe';
@@ -37,13 +36,13 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className={`App ${theme}`}>
-        <Router>
+        <Router basename="/Kaushiks_portfolio">
           <Routes>
             <Route index element={<LandingPage />} />
-            <Route path="/LandingPage" element={<LandingPage />} />
-            <Route path="/Resume" element={<Resume />} />
-            <Route path="/Projects" element={<Projects />} />
-            <Route path="/ContactMe" element={<ContactMe />} />
+            <Route path="/Kaushiks_portfolio/LandingPage" element={<LandingPage />} />
+            <Route path="/Kaushiks_portfolio/Resume" element={<Resume />} />
+            <Route path="/Kaushiks_portfolio/Projects" element={<Projects />} />
+            <Route path="/Kaushiks_portfolio/ContactMe" element={<ContactMe />} />
           </Routes>
         </Router>
       </div>
