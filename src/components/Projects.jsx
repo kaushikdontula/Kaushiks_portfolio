@@ -10,15 +10,8 @@ const projectsData = [
   {
     id: 100,
     title: "Finance Management Application",
-    description: "This is the description for Project 1.",
+    description: "In this project, me and a group of friends assigned eachother roles based on our strengths and followed an Agile SCRUM methodology to create a financial tracking application using React. Users are able to create an account or log in to input expenses data and view their habits using chartJS.",
     link: "https://github.com/kaushikdontula/CS361-team-repository",
-  },
-
-  {
-    id: 101,
-    title: "Song Data Base",
-    description: "Using mongoDB and mongoose to create a web based application that simulates a song database. Includes CRUD operations.",
-    link: "https://github.com/kaushikdontula/Song-Data-Base",
   },
 
   {
@@ -26,6 +19,13 @@ const projectsData = [
     title: "Hunt the Wumpus Game",
     description: "This game uses polymorphism and object oriented programming to simulate a game of Hunt the Wumpus",
     link: "https://github.com/kaushikdontula/Hunt-the-Wumpus",
+  },
+
+  {
+    id: 101,
+    title: "Song Data Base",
+    description: "Using mongoDB and mongoose to create a web based application that simulates a song database. Includes CRUD operations.",
+    link: "https://github.com/kaushikdontula/Song-Data-Base",
   },
 
   {
@@ -40,6 +40,13 @@ const projectsData = [
     title: "Searching Employees From Database",
     description: "This application uses a company database from MariaDB to display sql queries regarding employees with certain attributes",
     link: "https://github.com/kaushikdontula/CompanyDatabaseQuerying",
+  },
+
+  {
+    id: 105,
+    title: "Small Shell",
+    description: "In this program I write smallsh, my own shell in C. smallsh implements a subset of features of well-known shells, such as bash.",
+    link: "https://github.com/kaushikdontula/SmallShell",
   }
 ];
 

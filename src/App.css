@@ -74,6 +74,9 @@ button {
 
 .nav-main {
   position: fixed;
+  top: 60px; /* Adjust the top position */
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 725px; /* Adjust the distance from the bottom as needed */
   left: 50%;
   transform: translateX(-50%);
@@ -104,15 +107,14 @@ button {
   font-size: 1.25em;
   text-decoration: none;
   color: #a8a8a8;
-  margin: 0 1rem; /* Adjust the margin as needed */
-  transition: background-color 0.3s, border-radius 0.3s;
+  margin: 0 1rem;
+  transition: background-color 0.3s, border-radius 0.3s, padding 0.3s; /* Include padding in the transition */
 }
 
 .link-txt:hover {
   background-color: black;
   border-radius: 20px;
-  width: 50px; /* Adjust the width as needed */
-  height: 40px;
+  padding: 0.25em 0.5em; /* Adjust the padding to match the initial state */
   color: white;
 }
 
@@ -120,7 +122,9 @@ button {
 .active-page {
   background-color: #5a2d9c; /* Set the color for the active page */
   border-radius: 20px;
+  padding: .25em .5em; /* Adjust the padding as needed for consistency */
 }
+
 
 .links {
   margin: auto;
@@ -197,6 +201,33 @@ tbody tr:hover {
     white-space: nowrap;
   }
 }
+
+/* App.css */
+
+.slide-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.slide-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+
+
 
 
 /* Add these styles to improve the modal form appearance */

@@ -203,7 +203,7 @@ export const ContactMe = (props) => {
           <div className="loading-icon"></div>
         ) : (
           <>
-            <p>Email sent successfully!</p>
+            <p>Message recieved! I will be in touch with you shortly.</p>
             <button onClick={handlePopupClose}>Close</button>
           </>
         )}
