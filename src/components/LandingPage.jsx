@@ -3,18 +3,20 @@ import NavBar from "./NavBar";
 import Socials from "./Socials";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FaBasketballBall, FaDumbbell, FaGolfBall, FaHiking, FaMusic, FaPlane } from 'react-icons/fa';
+import { FaBasketballBall, FaDumbbell, FaGolfBall, FaHiking, FaMusic, FaPlane, FaShoppingBag, FaUtensils} from 'react-icons/fa';
 
 export const LandingPage = (props) => {
 
-    const hobbies = [
-        { icon: <FaBasketballBall />, name: "Basketball" },
-        { icon: <FaDumbbell />, name: "Working Out" },
-        { icon: <FaGolfBall />, name: "Golf" },
-        { icon: <FaHiking />, name: "Hiking" },
-        { icon: <FaMusic />, name: "Music" },
-        { icon: <FaPlane />, name: "Traveling" },
-      ];
+  const hobbies = [
+    { icon: <FaBasketballBall />, name: "Basketball" },
+    { icon: <FaDumbbell />, name: "Working Out" },
+    { icon: <FaGolfBall />, name: "Golf" },
+    { icon: <FaHiking />, name: "Hiking" },
+    { icon: <FaMusic />, name: "Music" },
+    { icon: <FaPlane />, name: "Traveling" },
+    { icon: <FaShoppingBag />, name: "Fashion" },
+    { icon: <FaUtensils />, name: "Food" },
+  ];
 
   const timelineData = [
     {
