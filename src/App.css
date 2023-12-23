@@ -228,7 +228,103 @@ tbody tr:hover {
 
 
 
+/* App.css */
+
+/* Your existing styles */
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 600px) {
+  .auth-form-container {
+    padding: 2rem; /* Adjust padding for smaller screens */
+  }
+
+  .nav-main {
+    top: 10px; /* Adjust the top position for the navigation */
+    height: 30px; /* Adjust the height for the navigation */
+  }
+
+  .nav-logo {
+    font-size: 1.25em; /* Reduce the font size for the logo */
+  }
+
+  .link-txt {
+    font-size: 0.70em; /* Reduce the font size for the navigation links */
+  }
+
+  /* Add more responsive styles as needed */
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-content {
+    margin: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5em;
+  }
 
 
-/* Add these styles to improve the modal form appearance */
+  /* Adjustments for other sections */
+  
+  .timeline-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .timeline-section h2 {
+    font-size: 1.5em;
+  }
 
+  .vertical-timeline-element-title {
+    font-size: 1.2em;
+  }
+
+  .vertical-timeline-element p {
+    font-size: 0.9em;
+  }
+  
+  /* contact me form */
+
+  .contact-form {
+    max-width: 300px; /* Adjust the max-width for smaller screens */
+    margin: 50px auto; /* Adjust margin for better centering on smaller screens */
+  }
+
+  .contact-form label {
+    margin-bottom: 10px; /* Reduce margin between labels for a more compact form */
+  }
+
+  .contact-form textarea {
+    height: 100px; /* Reduce the height of the textarea */
+    font-size: 14px; /* Reduce the font size for better readability on smaller screens */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Adjust the width for full-width input fields */
+  }
+
+  .contact-form button {
+    width: 100%; /* Adjust the width for full-width buttons */
+    padding: 12px; /* Adjust padding for smaller buttons */
+  }
+
+  .popup {
+    padding: 20px; /* Reduce padding for a smaller popup */
+  }
+
+  .popup p {
+    font-size: 16px; /* Reduce font size for better readability on smaller screens */
+    margin-bottom: 15px; /* Increase margin between text and button */
+  }
+
+  .popup button {
+    padding: 12px; /* Adjust padding for smaller buttons in the popup */
+  }
+
+}

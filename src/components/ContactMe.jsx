@@ -162,6 +162,46 @@ export const ContactMe = (props) => {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
           }
+
+          @media screen and (max-width: 600px) {
+            .contact-form {
+              max-width: 300px;
+              margin: 50px auto;
+            }
+
+            .contact-form label {
+              margin-bottom: 10px;
+            }
+
+            .contact-form textarea {
+              height: 100px;
+              font-size: 14px;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+              width: 100%;
+            }
+
+            .contact-form button {
+              width: 100%;
+              padding: 12px;
+            }
+
+            .popup {
+              padding: 20px;
+            }
+
+            .popup p {
+              font-size: 16px;
+              margin-bottom: 15px;
+            }
+
+            .popup button {
+              padding: 12px;
+            }
+          }
+
         `}
       </style>
 
