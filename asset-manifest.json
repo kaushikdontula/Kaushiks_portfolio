@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kaushikdontula.com/static/css/main.0f235a94.css",
-    "main.js": "/kaushikdontula.com/static/js/main.b56c1926.js",
-    "static/js/787.f36941e2.chunk.js": "/kaushikdontula.com/static/js/787.f36941e2.chunk.js",
-    "index.html": "/kaushikdontula.com/index.html",
-    "main.0f235a94.css.map": "/kaushikdontula.com/static/css/main.0f235a94.css.map",
-    "main.b56c1926.js.map": "/kaushikdontula.com/static/js/main.b56c1926.js.map",
-    "787.f36941e2.chunk.js.map": "/kaushikdontula.com/static/js/787.f36941e2.chunk.js.map"
+    "main.css": "/Kaushiks_portfolio/static/css/main.0f235a94.css",
+    "main.js": "/Kaushiks_portfolio/static/js/main.1abdb328.js",
+    "static/js/787.250d2ffe.chunk.js": "/Kaushiks_portfolio/static/js/787.250d2ffe.chunk.js",
+    "index.html": "/Kaushiks_portfolio/index.html",
+    "main.0f235a94.css.map": "/Kaushiks_portfolio/static/css/main.0f235a94.css.map",
+    "main.1abdb328.js.map": "/Kaushiks_portfolio/static/js/main.1abdb328.js.map",
+    "787.250d2ffe.chunk.js.map": "/Kaushiks_portfolio/static/js/787.250d2ffe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f235a94.css",
-    "static/js/main.b56c1926.js"
+    "static/js/main.1abdb328.js"
   ]
 }
