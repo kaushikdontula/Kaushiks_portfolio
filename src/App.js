@@ -94,7 +94,7 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className={`App ${theme}`}>
-        {/* <Router basename="/Kaushiks_portfolio">
+        <Router basename="/Kaushiks_portfolio">
           <Routes>
             <Route index element={<LandingPage />} />
             <Route path="/Kaushiks_portfolio/LandingPage" element={<LandingPage />} />
@@ -102,9 +102,9 @@ function App() {
             <Route path="/Kaushiks_portfolio/Projects" element={<Projects />} />
             <Route path="/Kaushiks_portfolio/ContactMe" element={<ContactMe />} />
           </Routes>
-        </Router> */}
+        </Router>
 
-        <Router basename="/Kaushiks_portfolio"> {/* Add the correct basename */}
+        {/* <Router basename="/Kaushiks_portfolio"> {/* Add the correct basename 
           <Routes>
             <Route index element={<LandingPage />} />
             <Route path="/LandingPage" element={<LandingPage />} />
@@ -112,7 +112,7 @@ function App() {
             <Route path="/Projects" element={<Projects />} />
             <Route path="/ContactMe" element={<ContactMe />} />
           </Routes>
-        </Router>
+        </Router> */}
 
 
       </div>
