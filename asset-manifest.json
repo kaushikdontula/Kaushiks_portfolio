@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Kaushiks_portfolio/static/css/main.0f235a94.css",
-    "main.js": "/Kaushiks_portfolio/static/js/main.3808f715.js",
-    "static/js/787.250d2ffe.chunk.js": "/Kaushiks_portfolio/static/js/787.250d2ffe.chunk.js",
-    "index.html": "/Kaushiks_portfolio/index.html",
-    "main.0f235a94.css.map": "/Kaushiks_portfolio/static/css/main.0f235a94.css.map",
-    "main.3808f715.js.map": "/Kaushiks_portfolio/static/js/main.3808f715.js.map",
-    "787.250d2ffe.chunk.js.map": "/Kaushiks_portfolio/static/js/787.250d2ffe.chunk.js.map"
+    "main.css": "/static/css/main.0f235a94.css",
+    "main.js": "/static/js/main.5d5fcf45.js",
+    "static/js/787.250d2ffe.chunk.js": "/static/js/787.250d2ffe.chunk.js",
+    "index.html": "/index.html",
+    "main.0f235a94.css.map": "/static/css/main.0f235a94.css.map",
+    "main.5d5fcf45.js.map": "/static/js/main.5d5fcf45.js.map",
+    "787.250d2ffe.chunk.js.map": "/static/js/787.250d2ffe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f235a94.css",
-    "static/js/main.3808f715.js"
+    "static/js/main.5d5fcf45.js"
   ]
 }
