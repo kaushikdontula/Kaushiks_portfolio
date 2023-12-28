@@ -104,7 +104,7 @@ function App() {
           </Routes>
         </Router> */}
 
-        <Router>
+        <Router basename="/Kaushiks_portfolio"> {/* Add the correct basename */}
           <Routes>
             <Route index element={<LandingPage />} />
             <Route path="/LandingPage" element={<LandingPage />} />
