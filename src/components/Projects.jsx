@@ -10,7 +10,7 @@ const projectsData = [
   {
     id: 100,
     title: "Finance Management Application",
-    description: "In this project, me and a group of friends assigned eachother roles based on our strengths and followed an Agile SCRUM methodology to create a financial tracking application using React. Users are able to create an account or log in to input expenses data and view their habits using chartJS.",
+    description: "In this project, me and a group of friends assigned eachother roles based on our strengths and followed an Agile SCRUM methodology to create a web-based financial tracking application using React. Users are able to create an account or log in to input expenses data and view their habits using chartJS.",
     link: "https://kaushikdontula.github.io/CS361-team-repository/",
   },
   
@@ -19,6 +19,13 @@ const projectsData = [
     title: "Small Shell",
     description: "In this program I write smallsh, my own shell in C. smallsh implements a subset of features of well-known shells, such as bash.",
     link: "https://github.com/kaushikdontula/SmallShell",
+  },
+
+  {
+    id: 106,
+    title: "News Nest",
+    description: "I created a web based application that allows users to stay updated with real time news. They will enter their details and select genres they would like to be notified about, and the application will send them news based on these inputs. ",
+    link: "https://kaushikdontula.github.io/news_app/",
   },
 
   {
