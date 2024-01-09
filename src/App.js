@@ -94,7 +94,7 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className={`App ${theme}`}>
-        <Router>
+        <Router basename="/Kaushiks_portfolio">
           <Routes>
             <Route index element={<LandingPage />} />
             <Route path="/Kaushiks_portfolio/LandingPage" element={<LandingPage />} />
