@@ -88,6 +88,7 @@ button {
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Add box-shadow for a shadow effect */
+  z-index: 1;
 }
 
 .logo {
@@ -241,6 +242,7 @@ tbody tr:hover {
   .nav-main {
     top: 10px; /* Adjust the top position for the navigation */
     height: 30px; /* Adjust the height for the navigation */
+    z-index: 0;
   }
 
   .nav-logo {

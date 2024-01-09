@@ -28,6 +28,11 @@
   .popup-content p {
     margin-bottom: 20px;
   }
+
+  h1 {
+    margin-top: 100px; /* Add margin at the top to lower the title */
+    margin-bottom: 40px; /* Add margin at the bottom for spacing */
+  }
   
   .popup-content a,
   .popup-content button {
