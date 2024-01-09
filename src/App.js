@@ -97,10 +97,10 @@ function App() {
         <Router basename="/Kaushiks_portfolio">
           <Routes>
             <Route index element={<LandingPage />} />
-            <Route path="/Kaushiks_portfolio/LandingPage" element={<LandingPage />} />
-            <Route path="/Kaushiks_portfolio/Resume" element={<Resume />} />
-            <Route path="/Kaushiks_portfolio/Projects" element={<Projects />} />
-            <Route path="/Kaushiks_portfolio/ContactMe" element={<ContactMe />} />
+            <Route path="/LandingPage" element={<LandingPage />} />
+            <Route path="/Resume" element={<Resume />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/ContactMe" element={<ContactMe />} />
           </Routes>
         </Router>
 

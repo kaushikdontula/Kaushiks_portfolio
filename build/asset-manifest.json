@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Kaushiks_portfolio/static/css/main.bed92138.css",
-    "main.js": "/Kaushiks_portfolio/static/js/main.02b56fe0.js",
+    "main.js": "/Kaushiks_portfolio/static/js/main.1330be70.js",
     "static/js/787.250d2ffe.chunk.js": "/Kaushiks_portfolio/static/js/787.250d2ffe.chunk.js",
     "index.html": "/Kaushiks_portfolio/index.html",
     "main.bed92138.css.map": "/Kaushiks_portfolio/static/css/main.bed92138.css.map",
-    "main.02b56fe0.js.map": "/Kaushiks_portfolio/static/js/main.02b56fe0.js.map",
+    "main.1330be70.js.map": "/Kaushiks_portfolio/static/js/main.1330be70.js.map",
     "787.250d2ffe.chunk.js.map": "/Kaushiks_portfolio/static/js/787.250d2ffe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bed92138.css",
-    "static/js/main.02b56fe0.js"
+    "static/js/main.1330be70.js"
   ]
 }
