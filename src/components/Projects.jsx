@@ -11,7 +11,7 @@ const projectsData = [
     id: 100,
     title: "Finance Management Application",
     description: "In this project, me and a group of friends assigned eachother roles based on our strengths and followed an Agile SCRUM methodology to create a financial tracking application using React. Users are able to create an account or log in to input expenses data and view their habits using chartJS.",
-    link: "https://github.com/kaushikdontula/CS361-team-repository",
+    link: "https://kaushikdontula.github.io/CS361-team-repository/",
   },
   
   {
