@@ -46,6 +46,12 @@ export const LandingPage = (props) => {
         title: "SWE Intern @ Kaiser Permanente",
         description: `Collaborated with agile scrum team to design, develop, and release the “Be Healthy” movement, directly impacting Kaiser Permanente members`,
     },
+    {
+      id: 0,
+      date: "Jun 2022 - Sep 2022",
+      title: "Intern @ TopTech Realty",
+      description: `Responsible for assisting management team in marketing and research through the use of software tools, drones, and cameras to create videos and market them.`,
+  },
 
 
 

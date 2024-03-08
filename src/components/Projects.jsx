@@ -8,6 +8,18 @@ import './Projects.css'; // Import your CSS file
 
 const projectsData = [
   {
+    id: 107,
+    title: "Android Weather App in Kotlin",
+    description: "Created a live weather app using RESTful API to get weather data based on location and units. App uses multiple screens to display current weather, five-day forecast, and user settings. App also has share functionality for users to share weather data.",
+    link: "https://drive.google.com/file/d/1PrgghBHKg4YXadTcF-QRZusfu4nqFCy8/view?usp=sharing",
+  },
+  {
+    id: 108,
+    title: "Cancer Classification using Logistic Regression: AI/ML",
+    description: "Developed a logistic regression model to detect and classify cancer based on given datasets. Achieved a high level of accuracy through data processing, feature engineering, and hyperparameter tuning",
+    link: "https://drive.google.com/file/d/17xUSGOfDxgjz3WbQR5ktRZS_q6igeuaX/view?usp=sharing",
+  },
+  {
     id: 100,
     title: "Finance Management Application",
     description: "In this project, me and a group of friends assigned eachother roles based on our strengths and followed an Agile SCRUM methodology to create a web-based financial tracking application using React. Users are able to create an account or log in to input expenses data and view their habits using chartJS.",
@@ -17,7 +29,7 @@ const projectsData = [
   {
     id: 105,
     title: "Small Shell",
-    description: "In this program I write smallsh, my own shell in C. smallsh implements a subset of features of well-known shells, such as bash.",
+    description: "In this program I write smallsh, my own shell in C. Smallsh implements a subset of features of well-known shell commands, such as ls, cd, fork().",
     link: "https://github.com/kaushikdontula/SmallShell",
   },
 
@@ -30,8 +42,8 @@ const projectsData = [
 
   {
     id: 101,
-    title: "Song Data Base",
-    description: "Using mongoDB and mongoose to create a web based application that simulates a song database. Includes CRUD operations.",
+    title: "Song Data Base Full-Stack",
+    description: "Using mongoDB, mongoose, and express to create a web based full-stack application that simulates a song database. Includes implementation of CRUD operations.",
     link: "https://github.com/kaushikdontula/Song-Data-Base",
   },
 
