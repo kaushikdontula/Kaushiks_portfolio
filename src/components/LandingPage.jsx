@@ -25,18 +25,18 @@ export const LandingPage = (props) => {
     {
         id: 4,
         date: "June 2025",
-        title: "Anticipated Graduation Date",
-        description: "Graduating with a Bachelors of Science, CS in AI and Finance",
+        title: "Graduation Date",
+        description: "Graduating with a Bachelors of Science Computer Science, specializing in AI and Finance",
     },
     {
         id: 3,
         date: "Jun 2024 - Aug 2024",
-        title: "Incoming Product Manager Intern @ American Express",
-        description: "Lead a cross-functional team to support the development of commercial payment solutions through digital platforms, leading to successful businesses worldwide",
+        title: "Product Manager Intern @ American Express",
+        description: "Lead a cross-functional team to support the development of commercial payment solutions through digital BCA (Business Checking Account) platform, leading to successful businesses worldwide",
     },
     {
         id: 2,
-        date: "Jun 2023 - Present",
+        date: "Jun 2023 - Jun 2024",
         title: "Salesforce CRM developer",
         description: "Collaborated with cross-functional team to maintain and enhance a Salesforce-based application and reporting system",
     },
@@ -71,7 +71,7 @@ export const LandingPage = (props) => {
             <h1>Welcome to My Portfolio</h1>
             <p>
 
-              Hi, I'm Kaushik Dontula, a passionate technical product manager with a keen interest in the intersection of computer science and finance. Currently in my third year of studies, I am driven by the goal of making a significant impact in the fintech industry by creating innovative and technologically advanced products to address real-world user challenges.
+              Hi, I'm Kaushik Dontula, a passionate technical product manager/solutions architect with a keen interest in the intersection of computer science and finance. Currently in my fourth year of studies, I am driven by the goal of making a significant impact in the fintech industry by creating innovative and technologically advanced products to address real-world user challenges.
             </p>
             <p>
               On this website, you'll find a glimpse into my professional and academic journey, showcasing projects that highlight my skills and achievements. From academic endeavors to personal projects, I take pride in each step of my journey. I am proficient in many coding languages such as C, C++, Javascript, Typescript, Python, NodeJS, and I am always eager to explore and learn more.
@@ -89,8 +89,8 @@ export const LandingPage = (props) => {
                   </div>
                   ))} */}
                   {hobbies.map((hobby, index) => (
-                    <div key={index} style={{ margin: "0 10px", fontSize: "7.5px" }}> {/* Adjust fontSize as needed */}
-                      {React.cloneElement(hobby.icon, { size: 17 })} {/* Set the desired size */}
+                    <div key={index} style={{ margin: "0 10px", fontSize: "7.5px" }}> 
+                      {React.cloneElement(hobby.icon, { size: 17 })} 
                       <p>{hobby.name}</p>
                     </div>
                   ))}
