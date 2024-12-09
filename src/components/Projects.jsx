@@ -8,6 +8,12 @@ import './Projects.css'; // Import your CSS file
 
 const projectsData = [
   {
+    id: 109,
+    title: "Healthcare AI SaaS Application (Capstone Project)",
+    description: "Developed an AI-powered SaaS application that parses Machine Readable Files (MRFs) to assist users in analyzing medical procedure costs. The app includes a chatbot interface that allows users to query procedure prices, compare their quotes with average costs, and visualize data with interactive charts. Implemented using nextJS, Python Django, postgreSQL, and openAI API.",
+    link: "https://drive.google.com/file/d/16oEEibPSJjC6LUXcLgo0XnFXgK7NTPnT/view?resourcekey",
+  },
+  {
     id: 107,
     title: "Android Weather App in Kotlin",
     description: "Created a live weather app using RESTful API to get weather data based on location and units. App uses multiple screens to display current weather, five-day forecast, and user settings. App also has share functionality for users to share weather data.",

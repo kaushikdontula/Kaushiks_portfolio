@@ -23,38 +23,48 @@ export const LandingPage = (props) => {
 
   const timelineData = [
     {
-        id: 4,
-        date: "June 2025",
-        title: "Graduation Date",
-        description: "Graduating with a Bachelors of Science Computer Science, specializing in AI and Finance",
+      id: 5,
+      date: "June 2025",
+      title: "Graduation Date",
+      description: "Graduating with a Bachelors of Science in Computer Science, specializing in AI and Finance",
+      location: "Oregon State University, Corvallis OR",
     },
     {
-        id: 3,
-        date: "Jun 2024 - Aug 2024",
-        title: "Product Manager Intern @ American Express",
-        description: "Lead a cross-functional team to support the development of commercial payment solutions through digital BCA (Business Checking Account) platform, leading to successful businesses worldwide",
+      id: 4,
+      date: "Jan 2025 - March 2025",
+      title: "AI/ML Neuroscience Researcher",
+      description:
+        "Participated in a neuroscience research program hosted by Instituto Cajal. Conducted analysis and modeling of neuronal dynamics using machine learning tools, with a focus on hippocampal memory function and behavior prediction through computational models.",
+      location: "Madrid, Spain",
     },
     {
-        id: 2,
-        date: "Jun 2023 - Jun 2024",
-        title: "Salesforce CRM developer",
-        description: "Collaborated with cross-functional team to maintain and enhance a Salesforce-based application and reporting system",
+      id: 3,
+      date: "Jun 2024 - Aug 2024",
+      title: "Product Manager Intern @ American Express",
+      description: "Lead a cross-functional team to support the development of commercial payment solutions through the digital BCA (Business Checking Account) platform, leading to successful businesses worldwide.",
+      location: "New York, NY",
     },
     {
-        id: 1,
-        date: "Jun 2023 - Sep 2023",
-        title: "SWE Intern @ Kaiser Permanente",
-        description: `Collaborated with agile scrum team to design, develop, and release the “Be Healthy” movement, directly impacting Kaiser Permanente members`,
+      id: 2,
+      date: "Jun 2023 - Jun 2024",
+      title: "Salesforce CRM Developer",
+      description: "Collaborated with a cross-functional team to maintain and enhance a Salesforce-based application and reporting system.",
+      location: "Portland, OR",
+    },
+    {
+      id: 1,
+      date: "Jun 2023 - Sep 2023",
+      title: "SWE Intern @ Kaiser Permanente",
+      description: "Collaborated with an agile scrum team to design, develop, and release the 'Be Healthy' movement, directly impacting Kaiser Permanente members.",
+      location: "San Francisco, CA",
     },
     {
       id: 0,
       date: "Jun 2022 - Sep 2022",
       title: "Intern @ TopTech Realty",
-      description: `Responsible for assisting management team in marketing and research through the use of software tools, drones, and cameras to create videos and market them.`,
-  },
-
-
-
+      description: "Responsible for assisting the management team in marketing and research through the use of software tools, drones, and cameras to create videos and market them.",
+      location: "Portland, WA",
+    },
   ];
   if(isMobile){
     return (
@@ -71,23 +81,18 @@ export const LandingPage = (props) => {
             <h1>Welcome to My Portfolio</h1>
             <p>
 
-              Hi, I'm Kaushik Dontula, a passionate technical product manager/solutions architect with a keen interest in the intersection of computer science and finance. Currently in my fourth year of studies, I am driven by the goal of making a significant impact in the fintech industry by creating innovative and technologically advanced products to address real-world user challenges.
+              Hi, I'm Kaushik Dontula, a passionate technical product manager/solutions architect with a keen interest in the intersection of computer science, AI/ML and finance. Currently in my fourth year of studies, I am driven by the goal of making a significant impact in the fintech industry by creating innovative and technologically advanced products to address real-world user and business challenges.
             </p>
             <p>
-              On this website, you'll find a glimpse into my professional and academic journey, showcasing projects that highlight my skills and achievements. From academic endeavors to personal projects, I take pride in each step of my journey. I am proficient in many coding languages such as C, C++, Javascript, Typescript, Python, NodeJS, and I am always eager to explore and learn more.
+              On this website, you'll find a glimpse into my professional and academic journey, showcasing projects that highlight my skills and achievements. From academic endeavors to personal projects, I take pride in each step of my journey. Not only am I proficient in many coding languages such as C, C++, JavaScript, TypeScript, Python, and Node.js, but I also understand the product lifecycle, thrive in cross-functional collaboration, and enjoy the entrepreneurial journey of transforming ideas into impactful solutions.
             </p>
             <p>
-              Beyond my technical pursuits, I enjoy learning about the finance, real-estate, and technology industries. Whether you're here for professional opportunities or just to connect, feel free to explore my portfolio and resume. I'm always open to new collaborations and making new connections. Let's chat!
+              Beyond my technical pursuits, I enjoy learning about the finance, real-estate, healthcare and technology industries. Whether you're here for professional opportunities or just to connect, feel free to explore my portfolio and resume. I'm always open to new collaborations and making new connections. Let's chat!
             </p>
 
             <h2>Hobbies</h2>
               <div style={{ display: "flex", justifyContent: "center" }}>
-                  {/* {hobbies.map((hobby, index) => (
-                  <div key={index} style={{ margin: "0 10px" }}>
-                      {hobby.icon}
-                      <p>{hobby.name}</p>
-                  </div>
-                  ))} */}
+
                   {hobbies.map((hobby, index) => (
                     <div key={index} style={{ margin: "0 10px", fontSize: "7.5px" }}> 
                       {React.cloneElement(hobby.icon, { size: 17 })} 
@@ -152,6 +157,11 @@ export const LandingPage = (props) => {
               >
                 <h3 className="vertical-timeline-element-title" style={{ color: "#333" }}>{event.title}</h3>
                 <p style={{ color: "#666" }}>{event.description}</p>
+
+                {/* Location Section */}
+                <p style={{ color: "#888", fontStyle: "italic", marginTop: "10px" }}>
+                  {event.location}
+                </p>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
@@ -203,24 +213,6 @@ export const LandingPage = (props) => {
           
           </header>
 
-        {/* Timeline section */}
-        {/* <div className="timeline-section">
-          <h2>Timeline</h2>
-          <VerticalTimeline>
-            {timelineData.map((event, index) => (
-              <VerticalTimelineElement
-                key={index}
-                date={event.date}
-                iconStyle={{ background: "#007bff", color: "#fff" }}
-                icon={<img src={`/${event.id}.png`} alt={`Event ${index}`} style={{ width: "100%", height: "100%", borderRadius: "50%" }} />} // Set the width, height, and border-radius as needed
-              >
-                <h3 className="vertical-timeline-element-title" style={{ color: "#333" }}> {event.title}</h3>
-                <p style={{ color: "#666" }}>{event.description}</p>
-              </VerticalTimelineElement>
-            ))}
-          </VerticalTimeline>
-        </div> */}
-
       {/* Timeline section */}
       <div className="timeline-section">
           <style>
@@ -266,6 +258,11 @@ export const LandingPage = (props) => {
               >
                 <h3 className="vertical-timeline-element-title" style={{ color: "#333" }}>{event.title}</h3>
                 <p style={{ color: "#666" }}>{event.description}</p>
+
+                {/* Location Section */}
+                <p style={{ color: "#888", fontStyle: "italic", marginTop: "10px" }}>
+                  {event.location}
+                </p>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
